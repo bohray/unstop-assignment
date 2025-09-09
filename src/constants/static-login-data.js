@@ -1,4 +1,5 @@
-import { FaEnvelope, FaFacebook, FaLock, FaUser } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaUserCircle } from "react-icons/fa";
+import { MdOutlineKey } from "react-icons/md";
 import { FcGoogle } from "react-icons/fc";
 
 export const loginOptions = [
@@ -19,7 +20,7 @@ export const userFields = [
     label: "Username",
     placeholder: "username",
     type: "text",
-    icon: FaUser,
+    icon: FaUserCircle,
   },
   {
     name: "email",
@@ -33,11 +34,11 @@ export const userFields = [
     label: "Password",
     placeholder: "password",
     type: "password",
-    icon: FaLock,
+    icon: MdOutlineKey,
   },
 ];
 
-export const initialState = {
+export const initialUserState = {
   username: "",
   email: "",
   password: "",

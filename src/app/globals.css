@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-grayish-50: #e2e2e2;
+  --color-grayish-80: #f4f4f4;
+  --color-iris: #6358dc;
+}
